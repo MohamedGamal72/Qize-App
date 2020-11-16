@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+#container{
+    width: 700px;
+    height: 420px;
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+#start,#finesh{
+    width: 100%;
+    height: 100%;
+    background-color: #02f7d6f6;
+    text-align: center;
+    line-height: 420px;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#container .Q{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.Q p{
+    width: 100%;
+    padding: 15px;
+    display: block;
+    position: absolute;
+    min-height: 110px;
+    max-height: 40px;
+    height: 70px;
+    background-color: #3cd5c6;
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    word-wrap: break-word;
+}
+.Q input{
+    display: block;
+    position: relative;
+    top: 137px;
+    margin: 19px;
+    transform: scale(1.7);
+}
+hr{
+    width: 90%;
+    height: 4px;
+    background-color: #3cd5c6;
+    position: relative;
+    top: 139px;
+    left: 25px;
+}
+.Q label{
+    display: block;
+    font-size: 22px;
+    color: rgb(95, 92, 92);
+    position: absolute;
+    top: 148px;
+    left: 80px;
+}
+.Q label:nth-of-type(2){
+    top:200px;
+}
+.Q label:nth-of-type(3){
+    top:257px;
+}
+.Q label:nth-of-type(4){
+    top:311px;
+}
+#timer{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 35px;
+}
+#timer span{
+    color: #1e2d4c;
+    padding: 4px;
+    border-radius: 6px;
+    background-color: #d1d4d7;
+}
+#timer span:nth-of-type(2){
+    background: none;
+    font-size: 47px;
+}
+#next{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background-color: #e91e63;
+    font-size: 30px;
+    padding: 13px;
+    border-radius: 8px;
+    color: aliceblue;
+    cursor: pointer;
+}
+#finesh{
+    display: none;
+    background-color: #393838bb;
+    line-height: 187px;
+    color: seashell;
+    font-size: 22px;
+}
+#finesh p{
+    line-height: 0px;
+}
+#finesh span{
+    color: #00ff90;
+    font-size: 29px;
+}
+#container .order{
+    display: block;
+}
